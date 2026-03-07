@@ -2,6 +2,9 @@
 
 This demo application provides an interactive Gradio-based interface for exploring the multimodal capabilities of the Qwen/Qwen3.5-2B model from Hugging Face. Built with a focus on accessibility and real-time interaction, it enables users to perform a variety of vision-language tasks on images and videos, including free-form querying, caption generation, 2D point localization, object detection, video question answering, and temporal point tracking. The interface leverages advanced features such as token-by-token streaming for responsive outputs, customizable sampling rates for video processing, and visual annotations using the Supervision library to overlay bounding boxes, masks, and keypoints directly on media. Designed for developers, researchers, and enthusiasts in computer vision and natural language processing, the app runs efficiently on GPU-accelerated environments via Hugging Face Spaces, with fallback support for CPU execution. It incorporates a custom Steel Blue theme for an intuitive user experience, complete with dynamic graph panels for monitoring sampling metrics and progress indicators for long-running inferences. By integrating tools like OpenCV for frame extraction and PIL for image manipulation, the demo showcases practical applications of Qwen 3.5 in real-world scenarios, such as analyzing environmental scenes, tracking objects in dynamic footage, or generating descriptive summaries, all while maintaining a lightweight footprint suitable for local deployment or cloud hosting.
 
+> [!IMPORTANT]
+Demo: https://huggingface.co/spaces/prithivMLmods/Qwen-3.5-HF-Demo
+
 ---
 
 <img width="1918" height="2359" alt="Screenshot 2026-03-07 at 09-03-44 Qwen 3 5 HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/29e0b7ec-15be-496f-ba79-0a275014ca3d" />
