@@ -1,8 +1,7 @@
 git+https://github.com/huggingface/accelerate.git
 git+https://github.com/huggingface/peft.git
 transformers-stream-generator
-transformers==5.2.0
-bitsandbytes>=0.43.0
+transformers==5.9.0
 huggingface_hub
 qwen-vl-utils
 sentencepiece
@@ -12,13 +11,11 @@ supervision
 molmo_utils
 matplotlib
 requests
-kernels
-tokenizers
 hf_xet
 einops
 spaces
 pillow
-gradio
+gradio==6.19.0
 torch
 timm
 av
