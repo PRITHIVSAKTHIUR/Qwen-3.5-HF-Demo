@@ -968,7 +968,7 @@ def process_video_qa(video_path, prompt):
     thread.join()
 
 
-@spaces.GPU
+@spaces.GPU(duration=300)
 def process_video_detection(video_path, prompt, sample_fps, max_frames, progress=gr.Progress()):
     if video_path is None:
         raise gr.Error("Please upload a video.")
@@ -1000,7 +1000,7 @@ def process_video_detection(video_path, prompt, sample_fps, max_frames, progress
     return annotated_video_path, gallery_images, summary
 
 
-@spaces.GPU
+@spaces.GPU(duration=300)
 def process_video_point_tracking(video_path, prompt, sample_fps, max_frames, progress=gr.Progress()):
     if video_path is None:
         raise gr.Error("Please upload a video.")
