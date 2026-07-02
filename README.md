@@ -4,6 +4,8 @@ Qwen-3.5-HF-Demo is an experimental, advanced multimodal intelligence interface 
 
 The platform features cross-library acceleration by coupling Hugging Face transformers with the `supervision` computer vision suite to draw clean object masks, bounding boxes, and point trajectories directly onto temporal frame buffers. Operating inside a custom, fully responsive Steel Blue workspace layout, it serves as a lightweight developer sandbox for mapping the boundaries of next-generation vision-language models.
 
+<img width="1616" height="1768" alt="screencapture-huggingface-co-spaces-prithivMLmods-Qwen-3-5-HF-Demo-2026-07-02-21_47_47" src="https://github.com/user-attachments/assets/b9226142-bfc6-4d3d-9226-a6f744112784" />
+
 ### **Key Features**
 
 * **Comprehensive Image QA & Grounding:** Instantly process image uploads for descriptive captioning, open-ended visual queries, exact object bounding boxes (`Detect`), or keypoint coordinate tracking (`Point`).
